@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    word-break: break-all;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --very-dark-blue: #063940;
+    --soft-dark-blue: #195e63;
+    --neutral-blue:   #3e838c;
+    --light-blue:     #8ebdb6;
+    --soft-white:     #ece1c3;
+    --white:          #FFFFFF;
+}
+
+body {
+    background: var(--soft-white);
+}
+
+button {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+    html {
+        font-size: 3.78vw;
+    }
+}
