@@ -1,0 +1,54 @@
+.messages {
+    margin: 0 auto 1rem auto;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+
+    border: 0.0625rem solid var(--very-dark-blue);
+    border-left: none;
+    border-right: none;
+
+    max-width: 90rem;
+
+    .message {
+        border: 0.0625rem solid var(--very-dark-blue);
+        border-radius: 0.5rem;
+
+        margin-bottom: 0.5rem;
+        padding: 1rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        h3 {
+            color: #000000;
+
+            font-family: "Roboto", sans-serif;
+            font-size: 1.125rem;
+            font-weight: 500;
+
+            margin-bottom: 1rem;
+
+            width: 100%;
+        }
+
+        p {
+            color: #000000;
+
+            font-family: "Roboto", sans-serif;
+            font-size: 0.875rem;
+            font-weight: 400;
+
+            margin-bottom: 1rem;
+
+            width: 100%;
+        }
+
+        .date {
+            font-weight: 500;
+
+            margin-bottom: 0;
+
+            width: 100%;
+        }
+    }
+}
